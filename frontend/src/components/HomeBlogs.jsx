@@ -5,7 +5,7 @@ import LikedByList from "./LikedByList";
 
 const HomeBlog = ({ id, title, content, author, date }) => {
   return (
-    <div className="bg-gray-800 text-gray-300 rounded-xl shadow-md p-6 space-y-3">
+    <div className="bg-gray-800 text-gray-300 rounded-xl shadow-md p-6 space-y-3 mb-5">
       <h2 className="text-xl font-semibold text-blue-400 flex items-center gap-2">
         <BookOpen className="w-6 h-6 text-blue-300" />
         {title}
